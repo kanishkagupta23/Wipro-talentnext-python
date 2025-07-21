@@ -1,5 +1,5 @@
-# Command Line Arguments Assignment
-#   python assignments.py sum2 <num1> <num2>
+''' Command Line Arguments Assignment
+   python assignments.py sum2 <num1> <num2>'''
 
 
 import sys
@@ -15,8 +15,7 @@ def sum_two_numbers(args):
     num1 = int(args[0])
     num2 = int(args[1])
     print(f"The sum of {num1} and {num2} is {num1 + num2}")
-
-#   python assignments.py welcome <message>
+    
 def print_welcome_message(args):
     """
     Accepts a welcome message and displays file name along with the message.
@@ -40,7 +39,6 @@ def is_prime(n):
     return True
 
 
-#   python assignments.py prime10 <num1> <num2> ... <num10>
 
 def sum_prime_numbers(args):
     """
