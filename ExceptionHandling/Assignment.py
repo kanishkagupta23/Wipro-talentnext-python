@@ -1,5 +1,4 @@
 # 1. Write a program to accept two numbers from the user and perform division.
-#    If any exception occurs, print an error message or else print the result.
 
 try:
     num1 = float(input("Enter first number: "))
@@ -11,7 +10,6 @@ except Exception as e:
 
 
 # 2. Write a program to accept a number from the user and check whether it's prime or not.
-#    If user enters anything other than number, handle the exception and print an error message.
 
 try:
     num = int(input("Enter a number: "))
@@ -29,8 +27,7 @@ except Exception as e:
 
 
 # 3. Write a program to accept the file name to be opened from the user,
-#    if file exists print the contents of the file in title case,
-#    else handle the exception and print an error message.
+
 
 try:
     filename = input("Enter file name: ")
@@ -42,8 +39,6 @@ except Exception as e:
 
 
 # 4. Declare a list with 10 integers and ask the user to enter an index.
-#    Check whether the number in that index is positive or negative.
-#    If any invalid index is entered, handle the exception and print an error message.
 
 numbers = [5, -3, 12, -1, 0, 25, -7, 8, -9, 4]
 try:
