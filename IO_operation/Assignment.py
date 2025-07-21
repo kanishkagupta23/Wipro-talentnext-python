@@ -1,6 +1,6 @@
 # 1. Write a program to read the entire content from a txt file and display it to the user.
 
-file_path = 'sample.txt'  # Replace with your actual file name
+file_path = 'sample.txt'  
 
 with open(file_path, 'r') as f:
     content = f.read()
