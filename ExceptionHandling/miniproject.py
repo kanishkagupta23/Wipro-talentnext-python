@@ -1,11 +1,11 @@
-# Problem Statement:
+''' Problem Statement:
 # Read a purchase file ("<filename>.txt") with lines containing "<item> <price>".
 # Possibly, a "Discount <amount>" line is present.
 # Print: total items, free items, total before discount, discount, and net payable.
-# Handle blank lines and invalid entries.
+# Handle blank lines and invalid entries.'''
 
 def main():
-    # Ask for base filename
+    
     filename = input("Enter the file name: ").strip() + ".txt"
     items = []
     discount = 0
@@ -31,19 +31,18 @@ def main():
                         price = float(price_str)
                         items.append((name, price))
                     except ValueError:
-                        continue  # Ignore lines with invalid price
+                        continue  
 
-        # Total items purchased
         print("No of items purchased:", len(items))
-        # Free items
+     
         free_items = sum(1 for name, price in items if price == 0)
         print("No of free items:", free_items)
-        # Total amount
+      
         total_amount = sum(price for name, price in items)
         print("Amount to pay:", int(total_amount) if total_amount.is_integer() else f"{total_amount:.2f}")
-        # Discount
+       
         print("Discount given:", int(discount) if discount.is_integer() else f"{discount:.2f}")
-        # Final amount
+
         final_amount = total_amount - discount
         print("Final amount paid:", int(final_amount) if final_amount.is_integer() else f"{final_amount:.2f}")
 
