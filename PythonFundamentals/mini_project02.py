@@ -6,7 +6,7 @@ print("-" * 50)
 cost_per_hour = 0.51
 hours_per_day = 24
 days_per_week = 7
-days_per_month = 30  # Assuming 30 days per month
+days_per_month = 30  
 budget = 918
 
 # Calculations
