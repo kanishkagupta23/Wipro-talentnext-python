@@ -1,9 +1,9 @@
-# Problem Statement:
-# Create a Python module with the following functions:
-# 1. ispalindrome(name): Returns True if the input name is a palindrome, else False.
-# 2. count_the_vowels(name): Returns the count of vowels in the input name.
-# 3. frequency_of_letters(name): Returns a dictionary with the frequency of each letter in the name.
-# Note: Input name will be entirely in lower or upper case.
+''' Problem Statement:
+ Create a Python module with the following functions:
+ 1. ispalindrome(name): Returns True if the input name is a palindrome, else False.
+ 2. count_the_vowels(name): Returns the count of vowels in the input name.
+3. frequency_of_letters(name): Returns a dictionary with the frequency of each letter in the name.
+ Note: Input name will be entirely in lower or upper case.'''
 
 def ispalindrome(name):
     """
