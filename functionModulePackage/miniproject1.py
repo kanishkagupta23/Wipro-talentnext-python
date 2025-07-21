@@ -1,7 +1,7 @@
-# Problem Statement:
-# Write a Python function that accepts a hyphen-separated sequence of colors as input 
-# and returns the colors in a hyphen-separated sequence after sorting them alphabetically.
-# Constraint: All the colors will be completely in either lower case or upper case.
+''' Problem Statement:
+ Write a Python function that accepts a hyphen-separated sequence of colors as input 
+ and returns the colors in a hyphen-separated sequence after sorting them alphabetically.
+ Constraint: All the colors will be completely in either lower case or upper case.'''
 
 def sort_colors(color_sequence):
     """
