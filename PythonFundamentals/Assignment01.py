@@ -1,5 +1,5 @@
-# TM-01 Python Fundamentals - Exercises
-# ========================================================
+# Python Fundamentals - Exercises
+
 
 print("="*60)
 print("TM-01 Python Fundamentals - Exercises")
